@@ -1,0 +1,38 @@
+.card {
+  max-width: 700px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 8px;
+  border: 1px solid black;
+  /* margin-bottom: 24px; */
+  width: 95%;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  /* border-bottom: 1px solid black; */
+  /* padding-bottom: 8px; */
+}
+
+.card-body {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+
+* {
+  margin: 0;
+}
